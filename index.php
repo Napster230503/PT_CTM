@@ -36,9 +36,13 @@ include '../script/script.php'
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous" />
 
 <style>
-  section{
+  .section1{
     background-color: #800000;
     font-family:Arial;
+  }
+
+  .move_date{
+    background-color: chocolate;
   }
 
   .nav-item:hover{
@@ -58,7 +62,7 @@ include '../script/script.php'
 
 </head>
 <body>
-    <section>
+    <section class="section1">
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
           <a class="navbar-brand ms-5 fs-3" href="#"> <img src="img/logo.png" alt="" style="width:100px; height:100px;"></a>
@@ -103,11 +107,11 @@ include '../script/script.php'
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
 </html>
 
-<div class="date" style="margin-right: 22px; font-size: x-large; font-family: arial;">
+    <div class="move_date" style=" font-size: x-large; font-family: arial;">
       <p class="inside_date">
-        <?php
-          echo date("d F Y");
-        ?>
+        <marquee scrolldelay='250' direction="right">
+          <?php echo "Tanggal Hari Ini: " . date("d F Y");?>
+        </marquee>
       </p>
     </div>
 
