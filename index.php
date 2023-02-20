@@ -17,9 +17,10 @@ include '../script/script.php'
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous" />
 
 <body>
-<?
-include '../navbar.php'
+<?=
+include 'partindex/navbar.php';
 ?>  
+
     <div class="date" style="margin-right: 22px; font-size: x-large; font-family: arial;">
       <p class="inside_date">
         <?php
