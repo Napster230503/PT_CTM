@@ -50,7 +50,7 @@ include 'partindex/script.php'
     <section>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-          <a class="navbar-brand ms-5 fs-3" href="#"> <img src="img/logo.png" alt="" style="width:100px; height:100px;"></a>
+          <a class="navbar-brand ms-5 fs-3" href="index.php"> <img src="img/logo.png" alt="" style="width:100px; height:100px;"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -70,10 +70,10 @@ include 'partindex/script.php'
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> PT CEPAT TANGGAP MEDIKA </a>
                 <ul class="dropdown-menu" style="background-color: white">
-                  <li><a class="dropdown-item" href="#">TENTANG KAMI</a></li>
-                  <li><a class="dropdown-item" href="#">LEGALITAS PERUSAHAAN</a></li>
-                  <li><a class="dropdown-item" href="#">VISI & MISI</a></li>
-                  <li><a class="dropdown-item" href="#">PROFIL & KOMITMEN</a></li>
+                  <li><a class="dropdown-item" href="bag_cepattanggap/tentang_kami.php">TENTANG KAMI</a></li>
+                  <li><a class="dropdown-item" href="bag_cepattanggap/legalitas.php">LEGALITAS PERUSAHAAN</a></li>
+                  <li><a class="dropdown-item" href="bag_cepattanggap/visi_misi.php">VISI & MISI</a></li>
+                  <li><a class="dropdown-item" href="bag_cepattanggap/profil&komitmen.php">PROFIL & KOMITMEN</a></li>
                 </ul>
               </li>
               <li class="nav-item">
