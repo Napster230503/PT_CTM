@@ -61,10 +61,10 @@ include 'partindex/script.php'
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="../index.php" role="button" data-bs-toggle="dropdown" aria-expanded="false"> LAYANAN </a>
                 <ul class="dropdown-menu" style="background-color: white">
-                  <li><a class="dropdown-item" href="#">PELAYANAN KESEHATAN</a></li>
-                  <li><a class="dropdown-item" href="#">AMBULANCE SERVICE</a></li>
-                  <li><a class="dropdown-item" href="#">MEDICAL EQUIPMENT SUPPLIES</a></li>
-                  <li><a class="dropdown-item" href="#">TRAINING CENTER</a></li>
+                  <li><a class="dropdown-item" href="../bag_layanan/pel_kesehatan.php">PELAYANAN KESEHATAN</a></li>
+                  <li><a class="dropdown-item" href="../bag_layanan/ambulance.php">AMBULANCE SERVICE</a></li>
+                  <li><a class="dropdown-item" href="../bag_layanan/med_equipment.php">MEDICAL EQUIPMENT SUPPLIES</a></li>
+                  <li><a class="dropdown-item" href="../bag_layanan/training_centre.php">TRAINING CENTER</a></li>
                 </ul>
               </li>
 
