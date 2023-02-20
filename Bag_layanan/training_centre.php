@@ -18,7 +18,9 @@ include 'partindex/script.php'
     <script src="js/jquery.js" type="text/javascript"></script>
     <script src="js/bootstrap.js" type="text/javascript"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous" />
+
     <body>
 <style>
   section{
@@ -71,10 +73,10 @@ include 'partindex/script.php'
                 <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> PT CEPAT TANGGAP MEDIKA </a>
                 <ul class="dropdown-menu" style="background-color: white">
-                  <li><a class="dropdown-item" href="tentang_kami.php">TENTANG KAMI</a></li>
-                  <li><a class="dropdown-item" href="legalitas.php">LEGALITAS PERUSAHAAN</a></li>
-                  <li><a class="dropdown-item" href="visi_misi.php">VISI & MISI</a></li>
-                  <li><a class="dropdown-item" href="profil&komitmen.php">PROFIL & KOMITMEN</a></li>
+                  <li><a class="dropdown-item" href="../bag_cepattanggap/tentang_kami.php">TENTANG KAMI</a></li>
+                  <li><a class="dropdown-item" href="../bag_cepattanggap/legalitas.php">LEGALITAS PERUSAHAAN</a></li>
+                  <li><a class="dropdown-item" href="../bag_cepattanggap/visi_misi.php">VISI & MISI</a></li>
+                  <li><a class="dropdown-item" href="../bag_cepattanggap/profil&komitmen.php">PROFIL & KOMITMEN</a></li>
                 </ul>
               </li>
               <li class="nav-item">
