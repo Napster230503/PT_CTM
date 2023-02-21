@@ -191,7 +191,7 @@ include 'partindex/script.php'
 </style>
 <footer class="footer_end p-4">
 <div class="row">
-  <div class="col-sm-4 mb-3 mb-sm-0 mt-4">
+  <div class="col-sm-4 mb-5 mb-sm-0 mt-4">
     <img src="img/logo.png" alt="PT CTM">
   </div>
   <div class="col-sm-4">
