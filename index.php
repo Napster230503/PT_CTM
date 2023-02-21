@@ -7,6 +7,7 @@ include 'partindex/script.php'
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PT CTM</title>
+    <link rel="shortcut icon" href="img/logo.png">
     <link rel="stylesheet" href="css/index.css" />
     <link rel="shortcut icon" href="../img/logo.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -31,9 +32,9 @@ include 'partindex/script.php'
     background-color: chocolate;
   }
 
-  .nav-item:hover{
+  /* .nav-item:hover{
     background-color: red;
-  }
+  } */
 
   .nav-item dropdown{
     color: aliceblue;
@@ -56,6 +57,10 @@ include 'partindex/script.php'
   .hero img{
     opacity: 0.4;
   }
+  .navbar .navbar-nav .nav-link:hover {
+    border-bottom: 2px solid red;
+  }
+
 </style>
 
 </head>
