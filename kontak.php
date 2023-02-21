@@ -21,7 +21,7 @@ include 'partindex/script.php'
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous" />
 
     <body>
-<style>
+    <style>
   section{
     background-color: #800000;
     font-family:Arial;
@@ -31,9 +31,9 @@ include 'partindex/script.php'
     background-color: chocolate;
   }
 
-  .nav-item:hover{
+  /* .nav-item:hover{
     background-color: red;
-  }
+  } */
 
   .nav-item dropdown{
     color: aliceblue;
@@ -44,8 +44,29 @@ include 'partindex/script.php'
     color: aliceblue;
     font-size: large;
   }
-</style>
 
+  .carousel{
+    width: 1000px;
+  }
+
+  .hero{
+    background-color: #800000;
+  }
+
+  .hero img{
+    opacity: 0.4;
+  }
+  .navbar .navbar-nav .nav-link:hover {
+    border-bottom: 2px solid red;
+  }
+
+  @media only screen and (max-width: 576px) {
+    .carousel {
+      width: 450px;
+    }
+  }
+
+</style>
 </head>
 <body>
     <section>
