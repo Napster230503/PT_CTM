@@ -8,7 +8,7 @@ include 'partindex/script.php'
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PT CTM</title>
     <link rel="stylesheet" href="css/index.css" />
-    <link rel="shortcut icon" href="../img/logo.png">
+    <link rel="shortcut icon" href="img/logo.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
