@@ -61,6 +61,12 @@ include 'partindex/script.php'
     border-bottom: 2px solid red;
   }
 
+  @media only screen and (max-width: 576px) {
+    .carousel {
+      width: 450px;
+    }
+  }
+
 </style>
 
 </head>
