@@ -137,6 +137,7 @@ include 'partindex/script.php'
     color: aliceblue;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 4);
     transition: 0,7s;
+    cursor: pointer;
   }
 
   .card:hover{
