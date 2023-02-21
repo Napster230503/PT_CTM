@@ -166,7 +166,7 @@ include 'partindex/script.php'
     <h3 class="text-center">Kabar Terbaru</h3>
     <div class="row mt-5">
       <div class="col-md-4 mt-4">
-        <div class="card ms-5" style="width: 19rem;">
+        <div class="card ms-5" >
           <!-- <img src="..." class="card-img-top" alt="..."> -->
           <div class="card-body">
             <a href="#" class="card-title fs-3" style="text-decoration:none; cursor:pointer;  color:#800000;">Bisakah influencer media sosial memengaruhi kehamilan dan pengasuhan anak?</a>
@@ -175,7 +175,7 @@ include 'partindex/script.php'
         </div>
       </div>
       <div class="col-md-4 mt-4">
-        <div class="card ms-5" style="width: 19rem;">
+        <div class="card">
           <!-- <img src="..." class="card-img-top" alt="..."> -->
           <div class="card-body">
             <a href="#" class="card-title fs-3" style="text-decoration:none; cursor:pointer;  color:#800000;">Fungsi & Tujuan Medical Center</a>
@@ -184,7 +184,7 @@ include 'partindex/script.php'
         </div>
       </div>
       <div class="col-md-4 mt-4">
-        <div class="card ms-5" style="width: 19rem;">
+        <div class="card me-5" >
           <!-- <img src="..." class="card-img-top" alt="..."> -->
           <div class="card-body">
             <a href="#" class="card-title fs-3" style="text-decoration:none; cursor:pointer;  color:#800000;">Kegiatan yang dilakukan</a>
