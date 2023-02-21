@@ -145,4 +145,9 @@ include 'partindex/script.php'
     </div>
   </div>
 </div>
+<br><br><br>
+<?=
+  include 'partindex/footer.php';
+?>
+
 </html>
