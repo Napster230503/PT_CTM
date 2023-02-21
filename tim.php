@@ -102,30 +102,45 @@ include 'partindex/script.php'
 <br>
     <u><center><h1 style="font-size: xx-large; font-family:Arial;"><b>TIM KAMI</b></h1><center></U>
 </body>
+<br><br>
+<style>
+  .row{
+    font-family: arial;
+  }
 
-
+  .card{
+    background-color: #800000;
+    color: aliceblue;
+  }
+</style>
 <div class="row">
-  <div class="col-sm-6 mb-3 mb-sm-0">
+  <div class="col-sm-4 mb-3 mb-sm-0">
     <div class="card" style="width: 18rem;">
       <img src="img/Sri_Rohayati.jpg" class="card-img-top" alt="Sri Rohayati">
       <div class="card-body">
-        <p class="card-text">CEO</p>
+        <h1 class="card-text">CEO</h1>
+          <hr>
+        <p>Sri Rohayati</p>
       </div>
     </div>
   </div>
-  <div class="col-sm-6">
+  <div class="col-sm-4">
     <div class="card" style="width: 18rem;">
-      <img src="img/Tri_Handayani.jpg" class="card-img-top" alt="Sri Handayani">
+      <img src="img/Tri_Handayani.jpg" class="card-img-top" alt="Tri Handayani">
       <div class="card-body">
-        <p class="card-text">COO</p>
+        <h1 class="card-text">COO</h1>
+          <hr>
+        <p>Tri Handayani</p>
       </div>
     </div>
   </div>
-  <div class="col-sm-6">
+  <div class="col-sm-4">
     <div class="card" style="width: 18rem;">
-      <img src="img/Bambang_Nugroho.jpg" class="card-img-top" alt="...">
+      <img src="img/Bambang_Nugroho.jpg" class="card-img-top" alt="Bambang Nugroho">
       <div class="card-body">
-        <p class="card-text">CCO</p>
+        <h1 class="card-text">CCO</h1>
+        <hr>
+        <p class=''>Bambang Nugroho</p>
       </div>
     </div>
   </div>
