@@ -103,8 +103,6 @@ include 'partindex/script.php'
     <u><center><h1 style="font-size: xx-large; font-family:Arial;"><b>TIM KAMI</b></h1><center></U>
 </body>
 <br><br>
-<<<<<<< HEAD
-=======
 <style>
   .row{
     font-family: arial;
@@ -119,7 +117,6 @@ include 'partindex/script.php'
     overflow-x:hidden;
   }
 </style>
->>>>>>> be37bbfd44420089bf4be19f465d3f6f9c72a5ec
 <div class="row">
   <div class="col-sm-4 mb-3 mb-sm-0">
     <div class="card" style="width: 18rem;">
