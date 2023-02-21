@@ -43,11 +43,19 @@ include 'partindex/script.php'
     color: aliceblue;
     font-size: large;
   }
+
+  .carousel{
+    width: 1000px;
+  }
+
+  .hero{
+    background-color: #800000;
+  }
 </style>
 
 </head>
 <body>
-    <section>
+  <section>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
           <a class="navbar-brand ms-5 fs-3" href="index.php"> <img src="img/logo.png" alt="" style="width:100px; height:100px;"></a>
@@ -55,9 +63,8 @@ include 'partindex/script.php'
             <span class="navbar-toggler-icon"></span>
           </button>
 
-          <div class="collapse navbar-collapse fs-5 ms-5" id="navbarSupportedContent">
+          <div class="collapse navbar-collapse fs-5 ms-5 me-5" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
-
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> LAYANAN </a>
                 <ul class="dropdown-menu" style="background-color: white">
@@ -87,16 +94,49 @@ include 'partindex/script.php'
           </div>
         </div>
       </nav>
-    </section>
-
-
+  </section>
     <div class="move_date" style=" font-size: x-large; font-family: arial;">
       <p class="inside_date">
         <marquee scrolldelay='250' direction="right">
-          <?php echo "Tanggal Hari Ini: " . date("d F Y");?>
+          <?php echo "Tanggal Hari Ini: " . date("l, d F Y");?>
         </marquee>
       </p>
     </div>
+    <!-- hero -->
+    <div class="hero text-center" style="margin-top:-20px; padding:50px; color:white; font-family:arial;">
+      <img src="img/logo.png" alt="logo">
+      <h2>Cepat Tanggap Medika</h2>
+      <h6>Karena anda kami peduli</h6>
+    </div>
+    <!-- akhir hero -->
+  <!-- carousel -->
+     <div class="galery mt-5">
+      <center>
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="10000">
+                <img src="img/logo.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="img/logo.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/logo.png" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+      </center>
+     </div>
+  <!-- akhir carousel -->
+
 
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
