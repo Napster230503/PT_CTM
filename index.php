@@ -78,10 +78,10 @@ include 'partindex/script.php'
                 </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">KONTAK</a>
+                <a class="nav-link" aria-current="page" href="kontak.php">KONTAK</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">TIM KAMI</a>
+                <a class="nav-link" href="tim.php">TIM KAMI</a>
               </li>
             </ul>
           </div>

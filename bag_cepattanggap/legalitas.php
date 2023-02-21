@@ -52,7 +52,7 @@ include 'partindex/script.php'
     <section>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-          <a class="navbar-brand ms-5 fs-3" href="#"> <img src="../img/logo.png" alt="" style="width:100px; height:100px;"></a>
+          <a class="navbar-brand ms-5 fs-3" href="../index.php"> <img src="../img/logo.png" alt="" style="width:100px; height:100px;"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -80,10 +80,10 @@ include 'partindex/script.php'
                 </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">KONTAK</a>
+                <a class="nav-link" aria-current="page" href="../kontak.php">KONTAK</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">TIM KAMI</a>
+                <a class="nav-link" href="../tim.php">TIM KAMI</a>
               </li>
             </ul>
           </div>
