@@ -158,7 +158,7 @@ include 'partindex/script.php'
       </div>
     </div>
   </div>
-  <div class="col-sm-4">
+  <div class="col-sm-4 mb-3">
     <div class="card" style="width: 18rem;">
       <img src="img/Tri_Handayani.jpg" class="card-img-top" alt="Tri Handayani">
       <div class="card-body">
@@ -190,7 +190,7 @@ include 'partindex/script.php'
 </style>
 <footer class="footer_end p-4">
 <div class="row">
-  <div class="col-sm-4 mb-3 mb-sm-0">
+  <div class="col-sm-4 mb-3 mb-sm-0 mt-4">
     <img src="img/logo.png" alt="PT CTM">
   </div>
   <div class="col-sm-4">
@@ -202,11 +202,11 @@ include 'partindex/script.php'
         </p>
   </div>
   <br>
-  <div class="col-sm-4">
+  <div class="col-sm-4 mt-4">
     <h5>E-MAIL</h5>
         <p>cepattanggapmedika1320@gmail.com</p>
             <br>
-    <h5>CUSTOMER SUPPORT</h5>
+    <h5 class="mt-4">CUSTOMER SUPPORT</h5>
         <p>+62 819-1674-9393</p>
   </div>
 </div>
