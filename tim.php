@@ -133,6 +133,12 @@ include 'partindex/script.php'
   .card{
     background-color: #800000;
     color: aliceblue;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 4);
+    transition: 0,7s;
+  }
+
+  .card:hover{
+    box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 8);
   }
 
   body{
