@@ -122,7 +122,9 @@ include 'partindex/script.php'
     </div>
 
 <br>
-    <u><center><h1 style="font-size: xx-large; font-family:Arial;"><b>TIM KAMI</b></h1><center></U>
+    <center>
+      <h1 style="font-size: xx-large; font-family:Arial; color:#800000;"><b>TIM KAMI</b></h1>
+    <center>
 </body>
 <br><br>
 <style>
@@ -130,9 +132,14 @@ include 'partindex/script.php'
     font-family: arial;
   }
 
-  .card{
+  .card-body{
     background-color: #800000;
     color: aliceblue;
+    cursor: pointer;
+  }
+
+  .card{
+    box-shadow: 2px 0px 0px grey;
   }
 
   body{
@@ -142,7 +149,7 @@ include 'partindex/script.php'
 <div class="row">
   <div class="col-sm-4 mb-3 mb-sm-0">
     <div class="card" style="width: 18rem;">
-      <img src="img/Sri_Rohayati.jpg" class="card-img-top" alt="Sri Rohayati">
+        <img src="img/Sri_Rohayati.jpg" class="card-img-top" alt="Sri Rohayati">
       <div class="card-body">
         <h1 class="card-text">CEO</h1>
           <hr>
@@ -180,14 +187,14 @@ include 'partindex/script.php'
         font-family: arial;
     }
 </style>
-<footer class="footer_end">
+<footer class="footer_end p-4">
 <div class="row">
   <div class="col-sm-4 mb-3 mb-sm-0">
     <img src="img/logo.png" alt="PT CTM">
   </div>
   <div class="col-sm-4">
     <h3>PT CEPAT TANGGAP MEDIKA</h3>
-        <p>Perumahan Lembah Griya Indah Citayam 
+        <p class="mt-4">Perumahan Lembah Griya Indah Citayam 
             JL.Garuda Raya  Blok AA1 No 11 
             RT 01 RW 013 Ragajaya 
             Bojonggede Bogor 16920
@@ -195,10 +202,10 @@ include 'partindex/script.php'
   </div>
   <br>
   <div class="col-sm-4">
-    <h3>E-MAIL</h3>
+    <h5>E-MAIL</h5>
         <p>cepattanggapmedika1320@gmail.com</p>
             <br>
-    <h3>CUSTOMER SUPPORT</h3>
+    <h5>CUSTOMER SUPPORT</h5>
         <p>+62 819-1674-9393</p>
   </div>
 </div>
