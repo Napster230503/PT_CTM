@@ -52,6 +52,10 @@ include 'partindex/script.php'
   .hero{
     background-color: #800000;
   }
+
+  .hero img{
+    opacity: 0.4;
+  }
 </style>
 
 </head>
@@ -106,8 +110,9 @@ include 'partindex/script.php'
     <!-- hero -->
     <div class="hero text-center" style="margin-top:-20px; padding:50px; color:white; font-family:arial;">
       <img src="img/logo.png" alt="logo">
-      <h2>Cepat Tanggap Medika</h2>
+      <h2 class="mt-4">Cepat Tanggap Medika</h2>
       <h6>Karena anda kami peduli</h6>
+      <h6 class="mt-4">Bergerak dalam bidang pelayanan kesehatan yang meliputi perdagangan alat kesehatan, training, & jasa service management</h6>
     </div>
     <!-- akhir hero -->
   <!-- carousel -->
