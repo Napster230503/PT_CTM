@@ -22,6 +22,10 @@ include 'partindex/script.php'
 
     <body>
     <style>
+  body{
+    overflow-x:hidden;
+    font-family: Arial;
+  }
   section{
     background-color: #800000;
     font-family:Arial;
@@ -119,6 +123,68 @@ include 'partindex/script.php'
         </marquee>
       </p>
     </div>
+<br>
+<center><h1 style="font-family:Arial;"><b>KONTAK KAMI</b></h1></center>
+<center><p>Apabila anda memiliki pertanyaan tentang kami, silahkan kontak kami di bawah ini</p></center>
+<br><br>
+<div class="row">
+
+<div class="col-sm-1"></div>
+  <div class="col-sm-3">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d294.672373577424!2d106.7943907598495!3d-6.4424212012876865!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69e9716e7fdf33%3A0x8aba7318436f0c9d!2sPT%20Cepat%20Tanggap%20Medika!5e0!3m2!1sen!2sid!4v1676967794552!5m2!1sen!2sid" 
+    width="500" height="550" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+  <div class="col-sm-1"></div>
+  <div class="col-sm-1"></div>
+  <div class="col-sm-5">
+    <p><b>Alamat: </b> Perumahan Lembah Griya Indah Citayam JL.Garuda Raya Blok AA1 No 11 RT 01 RW 013 Ragajaya Bojonggede Bogor 16920</p>
+    <p><b>Telepon: </b> +62 819-1674-9393</p>
+    <p><b>E-MAIL: </b> cepattanggapmedika1320@gmail.com</p>
+    <p><b>WhatsApp: </b> <a href="https://wa.me/6281916749393">Hubungi Melalui WhatsApp</a></p>
+    <hr>
+    <br>
+    <p>Anda juga dapat menghubungi kami lewat kotak pesan di bawah ini. Jangan lupa isi alamat email Anda agar kami bisa membalas pesan Anda:</p>
+
+    <div class="card">
+      <h4>E-MAIL</h4>     
+    </div>
+  </div>
+  <br>
+</div>
+
+
+
+<br><br>
+    <style>
+    footer{
+        background-color: #800000;
+        color: aliceblue;
+        font-family: arial;
+    }
+</style>
+<footer class="footer_end p-4">
+<div class="row">
+  <div class="col-sm-4 mb-5 mb-sm-0 mt-4">
+    <img src="img/logo.png" alt="PT CTM">
+  </div>
+  <div class="col-sm-4">
+    <h3>PT CEPAT TANGGAP MEDIKA</h3>
+        <p class="mt-4">Perumahan Lembah Griya Indah Citayam 
+            JL.Garuda Raya  Blok AA1 No 11 
+            RT 01 RW 013 Ragajaya 
+            Bojonggede Bogor 16920
+        </p>
+  </div>
+  <br>
+  <div class="col-sm-4 mt-4">
+    <h5>E-MAIL</h5>
+        <p>cepattanggapmedika1320@gmail.com</p>
+            <br>
+    <h5 class="mt-4">CUSTOMER SUPPORT</h5>
+        <p>+62 819-1674-9393</p>
+  </div>
+</div>
+</footer>
 
 </body>
 
