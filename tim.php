@@ -135,11 +135,12 @@ include 'partindex/script.php'
   .card-body{
     background-color: #800000;
     color: aliceblue;
-    cursor: pointer;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 4);
+    transition: 0,7s;
   }
 
-  .card{
-    box-shadow: 2px 0px 0px grey;
+  .card:hover{
+    box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 8);
   }
 
   body{
