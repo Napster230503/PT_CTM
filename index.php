@@ -203,7 +203,37 @@ include 'partindex/script.php'
     </div>
   </div>
   <!-- akhir konten -->
-
+<br><br>
+  <style>
+    footer{
+        background-color: #800000;
+        color: aliceblue;
+        font-family: arial;
+    }
+</style>
+<footer class="footer_end p-4">
+<div class="row">
+  <div class="col-sm-4 mb-5 mb-sm-0 mt-4">
+    <img src="img/logo.png" alt="PT CTM">
+  </div>
+  <div class="col-sm-4">
+    <h3>PT CEPAT TANGGAP MEDIKA</h3>
+        <p class="mt-4">Perumahan Lembah Griya Indah Citayam 
+            JL.Garuda Raya  Blok AA1 No 11 
+            RT 01 RW 013 Ragajaya 
+            Bojonggede Bogor 16920
+        </p>
+  </div>
+  <br>
+  <div class="col-sm-4 mt-4">
+    <h5>E-MAIL</h5>
+        <p>cepattanggapmedika1320@gmail.com</p>
+            <br>
+    <h5 class="mt-4">CUSTOMER SUPPORT</h5>
+        <p>+62 819-1674-9393</p>
+  </div>
+</div>
+</footer>
 </body>
 
 </html>
