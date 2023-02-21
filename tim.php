@@ -145,11 +145,4 @@ include 'partindex/script.php'
     </div>
   </div>
 </div>
-
-
-
-
-
-
-
 </html>
