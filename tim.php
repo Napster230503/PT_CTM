@@ -112,6 +112,10 @@ include 'partindex/script.php'
     background-color: #800000;
     color: aliceblue;
   }
+
+  body{
+    overflow-x:hidden;
+  }
 </style>
 <div class="row">
   <div class="col-sm-4 mb-3 mb-sm-0">
