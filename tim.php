@@ -103,4 +103,38 @@ include 'partindex/script.php'
     <u><center><h1 style="font-size: xx-large; font-family:Arial;"><b>TIM KAMI</b></h1><center></U>
 </body>
 
+
+<div class="row">
+  <div class="col-sm-6 mb-3 mb-sm-0">
+    <div class="card" style="width: 18rem;">
+      <img src="img/Sri_Rohayati.jpg" class="card-img-top" alt="Sri Rohayati">
+      <div class="card-body">
+        <p class="card-text">CEO</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6">
+    <div class="card" style="width: 18rem;">
+      <img src="img/Tri_Handayani.jpg" class="card-img-top" alt="Sri Handayani">
+      <div class="card-body">
+        <p class="card-text">COO</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6">
+    <div class="card" style="width: 18rem;">
+      <img src="img/Bambang_Nugroho.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <p class="card-text">CCO</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
 </html>
