@@ -61,6 +61,22 @@ include 'partindex/script.php'
     border-bottom: 2px solid red;
   }
 
+  body{
+    overflow-x:hidden;
+  }
+
+  .penampung a:hover{
+    color: #800000;
+  }
+
+  .penampung a{
+    color:grey;
+  }
+
+  .penampung h3{
+    color:#800000;
+  }
+
   @media only screen and (max-width: 576px) {
     .carousel {
       width: 450px;
@@ -153,7 +169,40 @@ include 'partindex/script.php'
       </center>
      </div>
   <!-- akhir carousel -->
-
+  <!-- awal konten -->
+  <div class="penampung mt-5">
+    <h3 class="text-center">Kabar Terbaru</h3>
+    <div class="row mt-5">
+      <div class="col-md-4 mt-4">
+        <div class="card ms-5" >
+          <!-- <img src="..." class="card-img-top" alt="..."> -->
+          <div class="card-body">
+            <a href="#" class="card-title fs-3" style="text-decoration:none; cursor:pointer; ">Bisakah influencer media sosial memengaruhi kehamilan dan pengasuhan anak?</a>
+            <p class="card-text mt-3">Tinjauan sistematis yang diterbitkan dalam jurnal Kebidanan menjelaskan bahwa influencer dan blogger media sosial dapat memengaruhi ibu hamil dan orang tua baru secara negatif dan positif...</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mt-4">
+        <div class="card">
+          <!-- <img src="..." class="card-img-top" alt="..."> -->
+          <div class="card-body">
+            <a href="#" class="card-title fs-3" style="text-decoration:none; cursor:pointer; ">Fungsi & Tujuan Medical Center</a>
+            <p class="card-text mt-3">Fungsi medical center: Memberikan pelayanan kesehatan baik umum maupun khusus, Memberikan konsultasi kesehatan secara umum, Memberikan pengobat...</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mt-4">
+        <div class="card me-5" >
+          <!-- <img src="..." class="card-img-top" alt="..."> -->
+          <div class="card-body">
+            <a href="#" class="card-title fs-3" style="text-decoration:none; cursor:pointer; ">Kegiatan yang dilakukan</a>
+            <p class="card-text mt-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. A magni corrupti maiores quia voluptate ipsa sequi, dolores nulla. Inventore temporibus nesciunt assumenda quia voluptate aperi...</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- akhir konten -->
 
 </body>
 
