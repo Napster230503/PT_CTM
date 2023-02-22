@@ -72,7 +72,10 @@ body{
       width: 450px;
     }
   }
-
+  .content {
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
 </style>
 
 </head>
@@ -127,47 +130,39 @@ body{
         <marquee scrolldelay='250' direction="right">
           <?php echo "Tanggal Hari Ini: " . date("d F Y");?>
         </marquee>
-        <br>
           <center><h2>Visi Misi</h2></center>
-          <center><h2>PT CEPAT TANGGAP MEDIKA</h2></center>
+          <center><h2><b>PT CEPAT TANGGAP MEDIKA</b></h2></center>
       </p>
       </div>
-<br><br>
-<style>
-.content {
-  border-top: 2px solid black;
-  border-bottom: 2px solid black;
-}
-</style>
+
 <div class="content">
   <div class="row">
-    <div class="col-sm-2"></div>
+  <div class="col-sm-2"></div>
     <div class="col-sm-4 mb-3 mb-sm-0 ">
       <br>
       <h4><b>VISI</b></h4>
     </div>
+    <div class="col-sm-2"></div>
+    <div class="col-sm-4 ">
+      <br>
+      <h4><b>MISI</b></h4>
+    </div>
+  </div>
+<!-- --------------------------------------------------- -->
+  <div class="row">
+    <div class="col-sm-1"></div>
     <div class="col-sm-4">
       <p style="font-size: large;">Membentuk perilaku berbisnis yang selalu bersyukur untuk meraih kesejahteraan dan kebahagiaan</p>
     </div>
     <div class="col-sm-1"></div>
-  </div>
-  <br><br>
-  <div class="row">
-    <div class="col-sm-2"></div>
-    <div class="col-sm-4 mb-3 mb-sm-0 ">
-      <br><br>
-      <h4><b>MISI</b></h4>
-    </div>
-    <div class="col-sm-4">
+    <div class="col-sm-5">
       <ul>
         <ol type="1">
           <li><p style="font-size: large;">Membentuk perilaku berbisnis yang selalu bersyukur untuk meraih kesejahteraan dan kebahagiaan</p></li>
           <li><p style="font-size: large;">Memberikan <b><i>benefit</i></b> yang jauh lebih banyak dan saling menguntungkan, dari sekedar transaksi jual-beli
-</p></li>
         </ol>
       </ul>
     </div>
-    <div class="col-sm-1"></div>
   </div>
 </div>
     <style>
