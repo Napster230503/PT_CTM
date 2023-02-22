@@ -130,8 +130,8 @@ include 'partindex/script.php'
     </div>
 
     <h1 class="text-center mt-5 mb-5" style="color:#800000;">Legalitas perusahaan</h1>
-    <div class="row ">
-      <div class="col-md-3 mt-4">
+    <div class="row mx-auto">
+      <div class="col-md-3 mt-4 ">
         <div class="card">
           <img src="legalitas_1.jpg" alt="">
           <div class="card-body">
