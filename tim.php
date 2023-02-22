@@ -196,7 +196,7 @@ include 'partindex/script.php'
   </div>
   <div class="col-sm-4">
     <h3>PT CEPAT TANGGAP MEDIKA</h3>
-        <p class="mt-4">Perumahan Lembah Griya Indah Citayam 
+        <p class="mt-4">Lembah Griya Indah Citayam 
             JL.Garuda Raya  Blok AA1 No 11 
             RT 01 RW 013 Ragajaya 
             Bojonggede Bogor 16920
