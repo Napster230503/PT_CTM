@@ -33,6 +33,7 @@ include 'partindex/script.php'
 
   .move_date{
     background-color: chocolate;
+    background: linear-gradient(to bottom, #d2691e, #FFFFFF);
   }
 
   /* .nav-item:hover{
@@ -137,7 +138,7 @@ include 'partindex/script.php'
   <div class="col-sm-1"></div>
   <div class="col-sm-1"></div>
   <div class="col-sm-5">
-    <p><b>Alamat: </b> Perumahan Lembah Griya Indah Citayam JL.Garuda Raya Blok AA1 No 11 RT 01 RW 013 Ragajaya Bojonggede Bogor 16920</p>
+    <p><b>Alamat: </b> Lembah Griya Indah Citayam JL.Garuda Raya Blok AA1 No 11 RT 01 RW 013 Ragajaya Bojonggede Bogor 16920</p>
     <p><b>Telepon: </b> +62 819-1674-9393</p>
     <p><b>E-MAIL: </b> cepattanggapmedika1320@gmail.com</p>
     <p><b>WhatsApp: </b> <a href="https://wa.me/6281916749393">Hubungi Melalui WhatsApp</a></p>

@@ -29,6 +29,7 @@ include 'partindex/script.php'
 
   .move_date{
     background-color: chocolate;
+    background: linear-gradient(to bottom, #d2691e, #FFFFFF);
   }
 
   /* .nav-item:hover{

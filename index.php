@@ -30,6 +30,7 @@ include 'partindex/script.php'
 
   .move_date{
     background-color: chocolate;
+    
   }
 
   /* .nav-item:hover{

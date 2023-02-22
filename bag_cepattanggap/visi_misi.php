@@ -30,6 +30,7 @@ include 'partindex/script.php'
 
   .move_date{
     background-color: chocolate;
+    background: linear-gradient(to bottom, #d2691e, #FFFFFF);
   }
 
   /* .nav-item:hover{
@@ -117,14 +118,58 @@ include 'partindex/script.php'
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
 </html>
 
+
+
+
     <div class="move_date" style=" font-size: x-large; font-family: arial;">
       <p class="inside_date">
         <marquee scrolldelay='250' direction="right">
           <?php echo "Tanggal Hari Ini: " . date("d F Y");?>
         </marquee>
+        <br>
+          <center><h2>Visi Misi</h2></center>
+          <center><h2>PT CEPAT TANGGAP MEDIKA</h2></center>
       </p>
-    </div>
+      </div>
 
+
+
+
+
+
+<br><br>
+
+
+    <style>
+    footer{
+        background-color: #800000;
+        color: aliceblue;
+        font-family: arial;
+    }
+</style>
+<footer class="footer_end p-4">
+<div class="row">
+  <div class="col-sm-4 mb-5 mb-sm-0 mt-4">
+    <img src="../img/logo.png" alt="PT CTM">
+  </div>
+  <div class="col-sm-4">
+    <h3>PT CEPAT TANGGAP MEDIKA</h3>
+        <p class="mt-4">Lembah Griya Indah Citayam 
+            JL.Garuda Raya  Blok AA1 No 11 
+            RT 01 RW 013 Ragajaya 
+            Bojonggede Bogor 16920
+        </p>
+  </div>
+  <br>
+  <div class="col-sm-4 mt-4">
+    <h5>E-MAIL</h5>
+        <p>cepattanggapmedika1320@gmail.com</p>
+            <br>
+    <h5 class="mt-4">CUSTOMER SUPPORT</h5>
+        <p>+62 819-1674-9393</p>
+  </div>
+</div>
+</footer>
 </body>
 
 </html>
