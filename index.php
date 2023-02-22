@@ -60,6 +60,7 @@ include 'partindex/script.php'
   }
   .navbar .navbar-nav .nav-link:hover {
     border-bottom: 2px solid red;
+    color:white;
   }
 
   body{

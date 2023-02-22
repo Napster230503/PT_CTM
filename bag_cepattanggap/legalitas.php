@@ -23,6 +23,10 @@ include 'partindex/script.php'
 
     <body>
     <style>
+      body{
+        overflow-x:hidden;
+      }
+
   section{
     background-color: #800000;
     font-family:Arial;
@@ -59,6 +63,7 @@ include 'partindex/script.php'
   }
   .navbar .navbar-nav .nav-link:hover {
     border-bottom: 2px solid red;
+    color:white;
   }
 
   @media only screen and (max-width: 576px) {
@@ -122,6 +127,42 @@ include 'partindex/script.php'
           <?php echo "Tanggal Hari Ini: " . date("d F Y");?>
         </marquee>
       </p>
+    </div>
+
+    <h1 class="text-center mt-5 mb-5" style="color:#800000;">Legalitas perusahaan</h1>
+    <div class="row ">
+      <div class="col-md-3 mt-4">
+        <div class="card">
+          <img src="legalitas_1.jpg" alt="">
+          <div class="card-body">
+              <p>
+               resmi berbadan hukum berdasarkan:
+                SK Menteri Hukum dan Hak Asasi Manusia Republik Indonesia No. AHU-0022180.AH.01.01. Tahun 2020
+              </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 mt-4">
+        <div class="card">
+          <div class="card-body">
+          Nomor Induk Berusaha (NIB) : 0220660923107,
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 mt-4">
+        <div class="card">
+          <div class="card-body">
+          SIUP-Penyelenggara Pelatihan Kesehatan Swasta: 202006-0919-1457-7731-045
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 mt-4">
+        <div class="card">
+          <div class="card-body">
+          SIUP-Perdagangan Eceran Alat Laboratorium, Farmasi dan Kesehatan: 202006-0906-0609-0247-877
+          </div>
+        </div>
+      </div>
     </div>
 
 </body>
