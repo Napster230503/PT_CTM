@@ -218,7 +218,7 @@ include 'partindex/script.php'
   <div class="col-sm-4 mb-5 mb-sm-0 mt-4">
     <img src="img/logo.png" alt="PT CTM">
   </div>
-  <div class="col-sm-4">
+  <div class="col-sm-4 mb-sm-0 mt-4">
     <h3>PT CEPAT TANGGAP MEDIKA</h3>
         <p class="mt-4">Lembah Griya Indah Citayam 
             JL.Garuda Raya  Blok AA1 No 11 

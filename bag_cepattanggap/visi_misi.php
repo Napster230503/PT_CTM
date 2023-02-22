@@ -23,6 +23,10 @@ include 'partindex/script.php'
 
     <body>
     <style>
+body{
+  font-family: arial;
+}
+
   section{
     background-color: #800000;
     font-family:Arial;
@@ -118,10 +122,6 @@ include 'partindex/script.php'
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
 </html>
-
-
-
-
     <div class="move_date" style=" font-size: x-large; font-family: arial;">
       <p class="inside_date">
         <marquee scrolldelay='250' direction="right">
@@ -132,15 +132,44 @@ include 'partindex/script.php'
           <center><h2>PT CEPAT TANGGAP MEDIKA</h2></center>
       </p>
       </div>
-
-
-
-
-
-
 <br><br>
-
-
+<style>
+.content {
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+</style>
+<div class="content">
+  <div class="row">
+    <div class="col-sm-2"></div>
+    <div class="col-sm-4 mb-3 mb-sm-0 ">
+      <br>
+      <h4><b>VISI</b></h4>
+    </div>
+    <div class="col-sm-4">
+      <p style="font-size: large;">Membentuk perilaku berbisnis yang selalu bersyukur untuk meraih kesejahteraan dan kebahagiaan</p>
+    </div>
+    <div class="col-sm-1"></div>
+  </div>
+  <br><br>
+  <div class="row">
+    <div class="col-sm-2"></div>
+    <div class="col-sm-4 mb-3 mb-sm-0 ">
+      <br><br>
+      <h4><b>MISI</b></h4>
+    </div>
+    <div class="col-sm-4">
+      <ul>
+        <ol type="1">
+          <li><p style="font-size: large;">Membentuk perilaku berbisnis yang selalu bersyukur untuk meraih kesejahteraan dan kebahagiaan</p></li>
+          <li><p style="font-size: large;">Memberikan <b><i>benefit</i></b> yang jauh lebih banyak dan saling menguntungkan, dari sekedar transaksi jual-beli
+</p></li>
+        </ol>
+      </ul>
+    </div>
+    <div class="col-sm-1"></div>
+  </div>
+</div>
     <style>
     footer{
         background-color: #800000;
@@ -153,7 +182,7 @@ include 'partindex/script.php'
   <div class="col-sm-4 mb-5 mb-sm-0 mt-4">
     <img src="../img/logo.png" alt="PT CTM">
   </div>
-  <div class="col-sm-4">
+  <div class="col-sm-4 mb-sm-0 mt-4">
     <h3>PT CEPAT TANGGAP MEDIKA</h3>
         <p class="mt-4">Lembah Griya Indah Citayam 
             JL.Garuda Raya  Blok AA1 No 11 
