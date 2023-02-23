@@ -144,6 +144,42 @@ include 'partindex/script.php'
       <h6 class="mt-4">Bergerak dalam bidang pelayanan kesehatan yang meliputi perdagangan alat kesehatan, training, & jasa service management</h6>
     </div>
     <!-- akhir hero -->
+
+<style>
+  .count{
+    background-color: chocolate;
+    font-size: large;
+    font-family: arial;
+    background: linear-gradient(to bottom, #d2691e, #FFFFFF);
+  }
+</style>
+    <section class="count">
+      <center>
+      <div class="row">
+        <div class="col-sm-12">
+          <?php
+            $counter_file = "counter.txt"; // Nama file counter
+            $counter = 0; // Inisialisasi counter
+            $ip = $_SERVER['REMOTE_ADDR']; // Dapatkan alamat IP pengunjung
+
+            // Baca nilai counter dari file
+            if (file_exists($counter_file)) {
+                $counter = file_get_contents($counter_file);
+            }
+
+            // Jika IP pengunjung belum pernah terhitung, tambahkan counter
+            if (strpos($ip, '192.168.') !== 0 && strpos($ip, '10.') !== 0 && strpos($ip, '172.') !== 0) { // Filter alamat IP internal
+                $counter++;
+                file_put_contents($counter_file, $counter); // Simpan nilai counter ke file
+            }
+
+            // Tampilkan nilai counter
+            echo "PENGUNJUNG SITUS: $counter";
+          ?>
+        </div>
+      </div>
+      </center>
+    </section>
   <!-- carousel -->
      <div class="galery mt-5">
       <center>
