@@ -25,6 +25,7 @@ include 'partindex/script.php'
     <style>
 body{
   font-family: arial;
+  overflow-x:hidden;
 }
 
   section{
@@ -74,8 +75,9 @@ body{
   }
   .content {
   border-top: 2px solid black;
-  border-bottom: 2px solid black;
+  /* border-bottom: 2px solid black; */
 }
+
 </style>
 
 </head>
@@ -131,7 +133,7 @@ body{
           <?php echo "<h4 class='text-light'> Tanggal Hari Ini: " . date("l, d F Y");"</h4> "?>
         </marquee>
           <center><h2>Visi Misi</h2></center>
-          <center><h2><b>PT CEPAT TANGGAP MEDIKA</b></h2></center>
+          <center><h2 style="color: #800000;"><b>PT CEPAT TANGGAP MEDIKA</b></h2></center>
       </p>
       </div>
 
@@ -140,12 +142,12 @@ body{
   <div class="col-sm-2"></div>
     <div class="col-sm-4 mb-3 mb-sm-0 ">
       <br>
-      <h4><b>VISI</b></h4>
+      <h4 style="color: #800000;"><b>VISI</b></h4>
     </div>
     <div class="col-sm-2"></div>
     <div class="col-sm-4 ">
       <br>
-      <h4><b>MISI</b></h4>
+      <h4 style="color: #800000;"><b>MISI</b></h4>
     </div>
   </div>
 <!-- --------------------------------------------------- -->
