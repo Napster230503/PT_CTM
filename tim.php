@@ -134,7 +134,7 @@ include 'partindex/script.php'
     font-family: arial;
   }
 
-  .card-body{
+  .card-footer{
     background-color: #800000;
     color: aliceblue;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 4);
@@ -155,9 +155,10 @@ include 'partindex/script.php'
     <div class="card" style="width: 18rem;">
         <img src="img/Sri_Rohayati.jpg" class="card-img-top" alt="Sri Rohayati">
       <div class="card-body">
-        <h1 class="card-text">CEO</h1>
-          <hr>
-        <p>Sri Rohayati</p>
+        <h5>Sri Rohayati</h5>
+      </div>
+      <div class="card-footer">
+        <h5>CEO</h5>
       </div>
     </div>
   </div>
@@ -165,9 +166,10 @@ include 'partindex/script.php'
     <div class="card" style="width: 18rem;">
       <img src="img/Tri_Handayani.jpg" class="card-img-top" alt="Tri Handayani">
       <div class="card-body">
-        <h1 class="card-text">COO</h1>
-          <hr>
-        <p>Tri Handayani</p>
+        <h5>Tri Handayani</h5>
+      </div>
+      <div class="card-footer">
+        <h5>CCO</h5>
       </div>
     </div>
   </div>
@@ -175,9 +177,10 @@ include 'partindex/script.php'
     <div class="card" style="width: 18rem;">
       <img src="img/Bambang_Nugroho.jpg" class="card-img-top" alt="Bambang Nugroho">
       <div class="card-body">
-        <h1 class="card-text">CCO</h1>
-        <hr>
-        <p class=''>Bambang Nugroho</p>
+        <h5 class=''>Bambang Nugroho</h5>
+      </div>
+      <div class="card-footer">
+        <h5>CCO</h5>
       </div>
     </div>
   </div>
