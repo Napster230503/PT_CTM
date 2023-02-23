@@ -115,8 +115,6 @@ include 'partindex/script.php'
       </nav>
     </section>
 
-
-
     <div class="move_date" style=" font-size: x-large; font-family: arial;">
       <p class="inside_date">
         <marquee scrolldelay='250' direction="right">
@@ -125,6 +123,20 @@ include 'partindex/script.php'
       </p>
     </div>
 
+    <main style="margin:15px auto;" class="me-5 ms-5">
+      <div class="row">
+          <h1 class="text-center mt-5 mb-5" style="color:#800000;">Profile</h1>
+        <div class="col-md-12">
+          <h5 class="text-center" >Dengan pengalaman para pendiri perusahaan selama 20 tahun pada bidang  Pelayanan Kesehatan dan Pelatihan  Management</h5>
+        </div>
+      </div>
+      <div class="row">
+          <h1 class="text-center mt-5 mb-5" style="color:#800000;">Komitmen</h1>
+        <div class="col-md-12">
+          <h5 class="text-center">memfokuskan usaha pada pengadaan  produk Alat Kesehatan yang berkualitas dan sebagai Training Center Pelatihan Kesehatan Kerja, dengan memperhatikan mutu serta memenuhi standar yang diterapkan di Indonesia.</h5>
+        </div>
+      </div>
+    </main>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
 </html>
