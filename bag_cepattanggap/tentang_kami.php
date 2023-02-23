@@ -121,7 +121,7 @@ include 'partindex/script.php'
     <div class="move_date" style=" font-size: x-large; font-family: arial;">
       <p class="inside_date">
         <marquee scrolldelay='250' direction="right">
-          <?php echo "Tanggal Hari Ini: " . date("d F Y");?>
+          <?php echo "<h4 class='text-light'> Tanggal Hari Ini: " . date("l, d F Y");"</h4> "?>
         </marquee>
       </p>
     </div>

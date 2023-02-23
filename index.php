@@ -1,5 +1,6 @@
 <?
-include 'partindex/script.php'
+include 'partindex/script.php';
+  session_start();
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -7,6 +8,7 @@ include 'partindex/script.php'
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PT CTM</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="shortcut icon" href="img/logo.png">
     <link rel="stylesheet" href="css/index.css" />
     <link rel="shortcut icon" href="../img/logo.png">
@@ -79,6 +81,14 @@ include 'partindex/script.php'
     color:#800000;
   }
 
+  .count{
+        /* background-color: chocolate; */
+        font-size: medium;
+        font-family: arial;
+        /* background: linear-gradient(to bottom, #d2691e, #FFFFFF); */
+        margin-top:50px;
+  }
+
   @media only screen and (max-width: 576px) {
     .carousel {
       width: 450px;
@@ -132,7 +142,7 @@ include 'partindex/script.php'
     <div class="move_date" style=" font-size: x-large; font-family: arial;">
       <p class="inside_date">
         <marquee scrolldelay='250' direction="right">
-          <?php echo "Tanggal Hari Ini: " . date("l, d F Y");?>
+          <?php echo "<h4 class='text-light'> Tanggal Hari Ini: " . date("l, d F Y");"</h4> "?>
         </marquee>
       </p>
     </div>
@@ -142,44 +152,49 @@ include 'partindex/script.php'
       <h2 class="mt-4">Cepat Tanggap Medika</h2>
       <h6>Karena anda kami peduli</h6>
       <h6 class="mt-4">Bergerak dalam bidang pelayanan kesehatan yang meliputi perdagangan alat kesehatan, training, & jasa service management</h6>
+      <section class="count">
+      <center>
+        <div class="row">
+          <div class="col-sm-12">
+            <?php
+              $counter_file = "counter.txt"; // Nama file counter
+              $counter = 0; // Inisialisasi counter
+              $ip = $_SERVER['REMOTE_ADDR']; // Dapatkan alamat IP pengunjung
+
+              // Baca nilai counter dari file
+              if (file_exists($counter_file)) {
+                  $counter = file_get_contents($counter_file);
+              }
+
+              // Jika IP pengunjung belum pernah terhitung, tambahkan counter
+              if (strpos($ip, '192.168.') !== 0 && strpos($ip, '10.') !== 0 && strpos($ip, '172.') !== 0) { // Filter alamat IP internal
+                  $counter++;
+                  file_put_contents($counter_file, $counter); // Simpan nilai counter ke file
+              }
+
+              // Tampilkan nilai counter
+              echo "<h5>
+                        <span class='material-symbols-outlined'>visibility</span> $counter 
+                    </h5>";
+            ?>
+            <!-- cara buat visitor count lewat session -->
+            <?php
+
+              // if(!isset($_SESSION['visitor_count'])) {
+              //     $_SESSION['visitor_count'] = 0;
+              // }
+
+              // $_SESSION['visitor_count']++;
+
+              // echo "Anda adalah pengunjung ke-" . $_SESSION['visitor_count'];
+            ?>
+          </div>
+        </div>
+      </center>
+    </section>
     </div>
     <!-- akhir hero -->
 
-<style>
-  .count{
-    background-color: chocolate;
-    font-size: large;
-    font-family: arial;
-    background: linear-gradient(to bottom, #d2691e, #FFFFFF);
-  }
-</style>
-    <section class="count">
-      <center>
-      <div class="row">
-        <div class="col-sm-12">
-          <?php
-            $counter_file = "counter.txt"; // Nama file counter
-            $counter = 0; // Inisialisasi counter
-            $ip = $_SERVER['REMOTE_ADDR']; // Dapatkan alamat IP pengunjung
-
-            // Baca nilai counter dari file
-            if (file_exists($counter_file)) {
-                $counter = file_get_contents($counter_file);
-            }
-
-            // Jika IP pengunjung belum pernah terhitung, tambahkan counter
-            if (strpos($ip, '192.168.') !== 0 && strpos($ip, '10.') !== 0 && strpos($ip, '172.') !== 0) { // Filter alamat IP internal
-                $counter++;
-                file_put_contents($counter_file, $counter); // Simpan nilai counter ke file
-            }
-
-            // Tampilkan nilai counter
-            echo "PENGUNJUNG SITUS: $counter";
-          ?>
-        </div>
-      </div>
-      </center>
-    </section>
   <!-- carousel -->
      <div class="galery mt-5">
       <center>
@@ -210,9 +225,9 @@ include 'partindex/script.php'
   <!-- awal konten -->
   <div class="penampung mt-5">
     <h3 class="text-center">Kabar Terbaru</h3>
-    <div class="row mt-5">
+    <div class="row mt-5 me-3 ms-3">
       <div class="col-md-4 mt-4">
-        <div class="card ms-5" >
+        <div class="card " >
           <!-- <img src="..." class="card-img-top" alt="..."> -->
           <div class="card-body">
             <a href="#" class="card-title fs-3" style="text-decoration:none; cursor:pointer; ">Bisakah influencer media sosial memengaruhi kehamilan dan pengasuhan anak?</a>
@@ -230,7 +245,7 @@ include 'partindex/script.php'
         </div>
       </div>
       <div class="col-md-4 mt-4">
-        <div class="card me-5" >
+        <div class="card" >
           <!-- <img src="..." class="card-img-top" alt="..."> -->
           <div class="card-body">
             <a href="#" class="card-title fs-3" style="text-decoration:none; cursor:pointer; ">Kegiatan yang dilakukan</a>

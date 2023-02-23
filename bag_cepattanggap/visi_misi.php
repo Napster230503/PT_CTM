@@ -128,7 +128,7 @@ body{
     <div class="move_date" style=" font-size: x-large; font-family: arial;">
       <p class="inside_date">
         <marquee scrolldelay='250' direction="right">
-          <?php echo "Tanggal Hari Ini: " . date("d F Y");?>
+          <?php echo "<h4 class='text-light'> Tanggal Hari Ini: " . date("l, d F Y");"</h4> "?>
         </marquee>
           <center><h2>Visi Misi</h2></center>
           <center><h2><b>PT CEPAT TANGGAP MEDIKA</b></h2></center>
