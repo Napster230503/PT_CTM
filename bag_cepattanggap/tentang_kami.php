@@ -63,6 +63,12 @@ include 'partindex/script.php'
     color:white;
   }
 
+  footer{
+        background-color: #800000;
+        color: aliceblue;
+        font-family: arial;
+    }
+
   @media only screen and (max-width: 576px) {
     .carousel {
       width: 450px;
@@ -126,15 +132,8 @@ include 'partindex/script.php'
       </p>
     </div>
 
-<h1>TENTANG KAMI</h1>
+<h1 class="text-center">TENTANG KAMI</h1>
 
-    <style>
-    footer{
-        background-color: #800000;
-        color: aliceblue;
-        font-family: arial;
-    }
-</style>
 <footer class="footer_end p-4">
 <div class="row">
   <div class="col-sm-4 mb-5 mb-sm-0 mt-4">

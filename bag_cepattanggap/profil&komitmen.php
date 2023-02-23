@@ -133,7 +133,8 @@ include 'partindex/script.php'
       <div class="row">
           <h1 class="text-center mt-5 mb-5" style="color:#800000;">Komitmen</h1>
         <div class="col-md-12">
-          <h5 class="text-center">memfokuskan usaha pada pengadaan  produk Alat Kesehatan yang berkualitas dan sebagai Training Center Pelatihan Kesehatan Kerja, dengan memperhatikan mutu serta memenuhi standar yang diterapkan di Indonesia.</h5>
+          <h5 class="text-center">Komitmen Kami untuk menjaga kelancaran pelayanan dan pemenuhan kebutuhan, kami menjalin kemitraan jangka panjang yang saling menguntungkan dengan para produsen alat Kesehatan lainnya yang sudah terjamin kualitasnya serta
+          memfokuskan usaha pada pengadaan  produk Alat Kesehatan yang berkualitas dan sebagai Training Center Pelatihan Kesehatan Kerja, dengan memperhatikan mutu serta memenuhi standar yang diterapkan di Indonesia.</h5>
         </div>
       </div>
     </main>
