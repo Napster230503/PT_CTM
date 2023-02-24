@@ -8,6 +8,7 @@ include 'partindex/script.php';
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PT CTM</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="shortcut icon" href="img/logo.png">
     <link rel="stylesheet" href="css/index.css" />
@@ -226,7 +227,7 @@ include 'partindex/script.php';
   <div class="penampung mt-5">
     <h3 class="text-center">Kabar Terbaru</h3>
     <div class="row mt-5 me-3 ms-3">
-      <div class="col-md-4 mt-4">
+      <div class="col-md-4 mt-4" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
         <div class="card " >
           <!-- <img src="..." class="card-img-top" alt="..."> -->
           <div class="card-body">
@@ -235,7 +236,7 @@ include 'partindex/script.php';
           </div>
         </div>
       </div>
-      <div class="col-md-4 mt-4">
+      <div class="col-md-4 mt-4" data-aos="fade-up" data-aos-delay="200" data-aos-duration="2000">
         <div class="card">
           <!-- <img src="..." class="card-img-top" alt="..."> -->
           <div class="card-body">
@@ -244,7 +245,7 @@ include 'partindex/script.php';
           </div>
         </div>
       </div>
-      <div class="col-md-4 mt-4">
+      <div class="col-md-4 mt-4" data-aos="fade-up" data-aos-delay="300" data-aos-duration="3000">
         <div class="card" >
           <!-- <img src="..." class="card-img-top" alt="..."> -->
           <div class="card-body">
@@ -287,6 +288,14 @@ include 'partindex/script.php';
   </div>
 </div>
 </footer>
+
+    <!-- membuat AOS -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 400,
+    });
+  </script>
 </body>
 
 </html>
