@@ -151,7 +151,7 @@ include 'partindex/script.php'
   }
 </style>
 <div class="row">
-  <div class="col-sm-4 mb-3 mb-sm-0" data-aos="zoom-in" data-aos-delay="1000">
+  <div class="col-sm-4 mb-3 mb-sm-0" data-aos="zoom-in" data-aos-delay="100" data-aos-duration="1000">
     <div class="card" style="width: 18rem;">
         <img src="img/Sri_Rohayati.jpg" class="card-img-top" alt="Sri Rohayati">
       <div class="card-body">
@@ -162,7 +162,7 @@ include 'partindex/script.php'
       </div>
     </div>
   </div>
-  <div class="col-sm-4 mb-3" data-aos="zoom-in" data-aos-delay="1000">
+  <div class="col-sm-4 mb-3" data-aos="zoom-in" data-aos-delay="100" data-aos-duration="1000">
     <div class="card" style="width: 18rem;">
       <img src="img/Tri_Handayani.jpg" class="card-img-top" alt="Tri Handayani">
       <div class="card-body">
@@ -173,7 +173,7 @@ include 'partindex/script.php'
       </div>
     </div>
   </div>
-  <div class="col-sm-4" data-aos="zoom-in" data-aos-delay="1000">
+  <div class="col-sm-4" data-aos="zoom-in" data-aos-delay="100" data-aos-duration="1000">
     <div class="card" style="width: 18rem;">
       <img src="img/Bambang_Nugroho.jpg" class="card-img-top" alt="Bambang Nugroho">
       <div class="card-body">

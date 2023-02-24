@@ -8,6 +8,7 @@ include 'partindex/script.php'
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PT CTM</title>
     <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="shortcut icon" href="img/logo.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -132,13 +133,13 @@ include 'partindex/script.php'
 <div class="row">
 
 <div class="col-sm-1"></div>
-  <div class="col-sm-3">
-  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d294.672373577424!2d106.7943907598495!3d-6.4424212012876865!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69e9716e7fdf33%3A0x8aba7318436f0c9d!2sPT%20Cepat%20Tanggap%20Medika!5e0!3m2!1sen!2sid!4v1676967794552!5m2!1sen!2sid" 
-    width="500" height="550" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  <div class="col-sm-3" data-aos="fade-right" data-aos-delay="100" data-aos-duration="1000">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d294.672373577424!2d106.7943907598495!3d-6.4424212012876865!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69e9716e7fdf33%3A0x8aba7318436f0c9d!2sPT%20Cepat%20Tanggap%20Medika!5e0!3m2!1sen!2sid!4v1676967794552!5m2!1sen!2sid" 
+        width="500" height="550" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
   </div>
   <div class="col-sm-1"></div>
   <div class="col-sm-1"></div>
-  <div class="col-sm-5">
+  <div class="col-sm-5" data-aos="fade-left"  data-aos-delay="400" data-aos-duration="2000">
     <p><b>Alamat: </b> Lembah Griya Indah Citayam JL.Garuda Raya Blok AA1 No 11 RT 01 RW 013 Ragajaya Bojonggede Bogor 16920</p>
     <p><b>Telepon: </b> +62 819-1674-9393</p>
     <p><b>E-MAIL: </b> cepattanggapmedika1320@gmail.com</p>
@@ -188,6 +189,12 @@ include 'partindex/script.php'
 </div>
 </footer>
 
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 400,
+    });
+  </script>
 </body>
 
 </html>
