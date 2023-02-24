@@ -7,6 +7,7 @@ include 'partindex/script.php'
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PT CTM</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="css/index.css" />
     <link rel="shortcut icon" href="../img/logo.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -131,7 +132,7 @@ include 'partindex/script.php'
 
     <h1 class="text-center mt-5 mb-5" style="color:#800000;">Legalitas perusahaan</h1>
     <div class="row mx-auto">
-      <div class="col-md-3 mt-4 ">
+      <div class="col-md-3 mt-4 " data-aos="zoom-in-up" data-aos-delay="100" data-aos-duration="1000">
         <div class="card">
           <img src="legalitas_1.jpg" alt="">
           <div class="card-body">
@@ -142,21 +143,21 @@ include 'partindex/script.php'
           </div>
         </div>
       </div>
-      <div class="col-md-3 mt-4">
+      <div class="col-md-3 mt-4" data-aos="zoom-in-up" data-aos-delay="100" data-aos-duration="1000">
         <div class="card">
           <div class="card-body">
           Nomor Induk Berusaha (NIB) : 0220660923107,
           </div>
         </div>
       </div>
-      <div class="col-md-3 mt-4">
+      <div class="col-md-3 mt-4" data-aos="zoom-in-up" data-aos-delay="100" data-aos-duration="1000">
         <div class="card">
           <div class="card-body">
           SIUP-Penyelenggara Pelatihan Kesehatan Swasta: 202006-0919-1457-7731-045
           </div>
         </div>
       </div>
-      <div class="col-md-3 mt-4">
+      <div class="col-md-3 mt-4" data-aos="zoom-in-up" data-aos-delay="100" data-aos-duration="1000">
         <div class="card">
           <div class="card-body">
           SIUP-Perdagangan Eceran Alat Laboratorium, Farmasi dan Kesehatan: 202006-0906-0609-0247-877
@@ -164,6 +165,13 @@ include 'partindex/script.php'
         </div>
       </div>
     </div>
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 400,
+    });
+  </script>
 
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
