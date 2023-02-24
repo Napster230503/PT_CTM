@@ -15,6 +15,7 @@ include 'partindex/script.php'
     <!-- <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Hepta+Slab&family=Kdam+Thmor+Pro&family=PT+Sans&family=Silkscreen&family=Ubuntu+Mono&display=swap" rel="stylesheet"> -->
     <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script> -->
     <script src="js/jquery.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <script src="js/bootstrap.js" type="text/javascript"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
@@ -127,7 +128,6 @@ include 'partindex/script.php'
     <center>
       <h1 style="font-size: xx-large; font-family:Arial; color:#800000;"><b>TIM KAMI</b></h1>
     <center>
-</body>
 <br><br>
 <style>
   .row{
@@ -151,7 +151,7 @@ include 'partindex/script.php'
   }
 </style>
 <div class="row">
-  <div class="col-sm-4 mb-3 mb-sm-0">
+  <div class="col-sm-4 mb-3 mb-sm-0" data-aos="zoom-in" data-aos-delay="1000">
     <div class="card" style="width: 18rem;">
         <img src="img/Sri_Rohayati.jpg" class="card-img-top" alt="Sri Rohayati">
       <div class="card-body">
@@ -162,7 +162,7 @@ include 'partindex/script.php'
       </div>
     </div>
   </div>
-  <div class="col-sm-4 mb-3">
+  <div class="col-sm-4 mb-3" data-aos="zoom-in" data-aos-delay="1000">
     <div class="card" style="width: 18rem;">
       <img src="img/Tri_Handayani.jpg" class="card-img-top" alt="Tri Handayani">
       <div class="card-body">
@@ -173,7 +173,7 @@ include 'partindex/script.php'
       </div>
     </div>
   </div>
-  <div class="col-sm-4">
+  <div class="col-sm-4" data-aos="zoom-in" data-aos-delay="1000">
     <div class="card" style="width: 18rem;">
       <img src="img/Bambang_Nugroho.jpg" class="card-img-top" alt="Bambang Nugroho">
       <div class="card-body">
@@ -217,5 +217,12 @@ include 'partindex/script.php'
   </div>
 </div>
 </footer>
-
+    <!-- nambah AOS animation on Scroll -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 400,
+    });
+  </script>
+</body>
 </html>
