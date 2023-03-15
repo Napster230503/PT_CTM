@@ -151,20 +151,21 @@ include 'partindex/script.php'
     <form action="" method="post">
     <div class="card">
       <center><h4>KIRIM PESAN</h4></center>
-        <div class="form-floating mb-3">
+        <div class="form-floating mb-3 ms-4 me-4">
           <input type="Text" class="form-control" id="floatingInput" placeholder="name@example.com" required>
           <label for="floatingInput">Nama Pengirim</label>
         </div>
-        <div class="form-floating mb-3">
+        <div class="form-floating mb-3 ms-4 me-4">
           <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" required>
           <label for="floatingInput">Alamat Email</label>
         </div>
-        <div class="form-floating">
+        <div class="form-floating mb-3 ms-4 me-4">
           <input type="text" class="form-control" id="floatingPassword" placeholder="Password" required>
           <label for="floatingPassword">Pesan</label>
         </div>
+        <button type="submit" class="btn btn-warning mt-4" style="background-color:#800000; color:white">kirim</button>
+        
     </div>
-      <button type="submit" class="btn btn-warning">kirim</button>
     </form>
   </div>
   <br>
