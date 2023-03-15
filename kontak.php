@@ -163,8 +163,8 @@ include 'partindex/script.php'
           <input type="text" class="form-control" id="floatingPassword" placeholder="Password" required>
           <label for="floatingPassword">Pesan</label>
         </div>
-        <button type="submit" class="btn btn-warning mt-4" style="background-color:#800000; color:white">kirim</button>
-        
+        <button type="submit" class="btn btn-warning mb-3 ms-4 me-4" style="background-color:#800000; color:white">KIRIM</button>
+
     </div>
     </form>
   </div>
