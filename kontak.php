@@ -152,7 +152,7 @@ include 'partindex/script.php'
     <div class="card">
       <center><h4>KIRIM PESAN</h4></center>
         <div class="form-floating mb-3 ms-4 me-4">
-          <input type="Text" class="form-control" id="floatingInput" placeholder="name@example.com" required>
+          <input type="Text" class="form-control" id="floatingInput" required>
           <label for="floatingInput">Nama Pengirim</label>
         </div>
         <div class="form-floating mb-3 ms-4 me-4">
@@ -160,7 +160,7 @@ include 'partindex/script.php'
           <label for="floatingInput">Alamat Email</label>
         </div>
         <div class="form-floating mb-3 ms-4 me-4">
-          <input type="text" class="form-control" id="floatingPassword" placeholder="Password" required>
+          <input type="text" class="form-control" id="floatingPassword" placeholder="Pesan Anda" required>
           <label for="floatingPassword">Pesan</label>
         </div>
         <button type="submit" class="btn btn-warning mb-3 ms-4 me-4" style="background-color:#800000; color:white">KIRIM</button>
