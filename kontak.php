@@ -152,7 +152,7 @@ include 'partindex/script.php'
     <div class="card">
       <center><h4>KIRIM PESAN</h4></center>
         <div class="form-floating mb-3 ms-4 me-4">
-          <input type="Text" class="form-control" id="floatingInput" required>
+          <input type="text" class="form-control" id="floatingInput" required>
           <label for="floatingInput">Nama Pengirim</label>
         </div>
         <div class="form-floating mb-3 ms-4 me-4">
