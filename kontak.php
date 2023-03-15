@@ -148,9 +148,24 @@ include 'partindex/script.php'
     <br>
     <p>Anda juga dapat menghubungi kami lewat kotak pesan di bawah ini. Jangan lupa isi alamat email Anda agar kami bisa membalas pesan Anda:</p>
 
+    <form action="" method="post">
     <div class="card">
-      <h4>E-MAIL</h4>     
+      <center><h4>KIRIM PESAN</h4></center>
+        <div class="form-floating mb-3">
+          <input type="Text" class="form-control" id="floatingInput" placeholder="name@example.com" required>
+          <label for="floatingInput">Nama Pengirim</label>
+        </div>
+        <div class="form-floating mb-3">
+          <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" required>
+          <label for="floatingInput">Alamat Email</label>
+        </div>
+        <div class="form-floating">
+          <input type="text" class="form-control" id="floatingPassword" placeholder="Password" required>
+          <label for="floatingPassword">Pesan</label>
+        </div>
     </div>
+      <button type="submit" class="btn btn-warning">kirim</button>
+    </form>
   </div>
   <br>
 </div>
